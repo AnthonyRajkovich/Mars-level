@@ -33,7 +33,7 @@ def ball_animation():
         ball_speed_x = 0
         ball_speed_y = 0
         while player_x < 700:
-            background = pygame.image.load('JupiterChallengeRoom(Door1Open).png')
+            background = pygame.image.load('MarsChallengeRoom(Door1Open).jpg')
             completed()
     if ball.colliderect(wall):
         ball_speed_x = 0
@@ -142,13 +142,13 @@ ball_angle_increment = 0
 ball_angle = 0
 ball_velocity_increment = 0
 ball_velocity = 7
-gravity = 24.79
+gravity = 3.711
 lives = 3
 
 
 launcher = pygame.image.load('Projectile-Launcher.png')
-background = pygame.image.load('JupiterChallengeRoom.png')
-background_game = pygame.image.load('JupiterChallengeRoom(Game Scene).png')
+background = pygame.image.load('MarsChallengeRoom.jpg')
+background_game = pygame.image.load('MarsChallengeRoom(Game Scene).jpg')
 door_frame = pygame.image.load('DoorFrame.png')
 
 player_walking = [pygame.image.load('charv2(1).png'), pygame.image.load('charv2(2).png'), pygame.image.load('charv2(3).png'), pygame.image.load('charv2(4).png')]
